@@ -145,6 +145,12 @@ namespace VixenModules.Output.CoolerMaster
             base.Start();
         }
 
+		public override void Stop()
+		{
+			CloseConnection();
+			base.Stop();
+		}
+		
         private bool OpenConnection()
         {
             CloseConnection();
