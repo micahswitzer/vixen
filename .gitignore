@@ -18,3 +18,5 @@ Vixen.opensdf
 Debug64
 Debug
 /.vs
+/logs
+/packages
